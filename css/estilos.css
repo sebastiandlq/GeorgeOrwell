@@ -1,0 +1,51 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Black Han Sans', sans-serif;
+    background: #EEE7E7;
+}
+.header{
+    height: 91px;
+    background: #CB2424;
+    display: flex;
+    justify-content: space-between;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    padding: 0 20px;
+}
+.logo{
+    padding: 0;
+    margin: 0;
+    height: 58px;
+}
+.libro{
+    display: flex;
+    width: 580px;
+    height: 330px;
+}
+.libro_image, .libro_imageContainer{
+    height: 326px;
+}
+ol, ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+a{
+    margin: 0 40px;;
+    color: black;
+    text-decoration: none;
+    font-size: 36px;
+}
+a:hover{
+    color: white;
+}
+h1, h2, h3, h4, h5, h6, h7{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+p{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
