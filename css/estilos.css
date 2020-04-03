@@ -9,6 +9,9 @@
     --box: 0 0 15px black;
     /* Espacio */
     --space: 20px;
+    /* Tamanos de fuente */
+    --normal: 20px;
+    --big: 36px;
 }
 /* Variables */
 html, body{
@@ -26,7 +29,7 @@ html, body{
 .brand{
     display: flex;
     align-items: center;
-    font-size: 36px;
+    font-size: var(--big);
     padding: var(--space);
 }
 .logo{
@@ -38,6 +41,10 @@ html, body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-image: url(../images/curve.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
 }
 .libro{
     display: flex;
@@ -53,7 +60,7 @@ html, body{
 }
 .libro_button{
     font-family: 'Bai Jamjuree', sans-serif;
-    font-size: 20px;
+    font-size: var(--normal);
     cursor: pointer;
     height: 55px;
     width: 80%;
@@ -63,10 +70,63 @@ html, body{
 .libro_button:hover{
     background-color: rgba(203, 36, 36, 0.88);
 }
+.features_title{
+    text-align: center;
+    font-size: var(--big);
+    font-family: 'Black Han Sans';
+}
+.features{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.features_curiosities{
+    width: 350px;
+    height: 400px;
+    border: 3px dashed black;
+    box-shadow: var(--box);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--space);
+    margin: var(--space);
+    margin-bottom: 40px;
+}
+.curiosities_imageContainer{
+    width: 100px;
+    height: 100px;
+}
+.curiosities_image{
+    width: inherit;
+    height: inherit;
+}
 .footer{
     background-color: var(--red-color);
-    height: 111px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: var(--normal);
 }
+.socialLinks{
+    display: flex;
+    flex-direction: row;
+  }
+  .socialmedia{
+    margin: 0 15px;
+    width: 50px;
+    height: 50px;
+    background-size: 50px;
+  }
+  .socialmedia.facebook{
+    background-image: url('../images/facebook.svg');
+  }
+  .socialmedia.instagram{
+    background-image: url('../images/instagram.svg');
+  }
+  .socialmedia.twiter{
+    background-image: url('../images/twitter.svg');
+  }
 ol, ul{
     display: flex;
     align-items: center;
@@ -76,7 +136,7 @@ a{
     margin: 0 var(--space);
     color: black;
     text-decoration: none;
-    font-size: 36px;
+    font-size: var(--big);
 }
 a:hover{
     color: white;
