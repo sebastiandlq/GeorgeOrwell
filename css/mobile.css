@@ -1,0 +1,22 @@
+@media (max-width: 600px) {
+    .brand{
+        font-size: 15px;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+    .logo img{
+        height: 75%;
+    }
+    .Menu li a{
+        font-size: 90%;
+    }
+    .libro{
+        display: block;
+        height: auto;
+    }
+    .libro_button{
+        width: auto;
+    }
+}

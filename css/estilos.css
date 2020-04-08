@@ -37,6 +37,9 @@ html, body{
     margin: 0;
     height: 58px;
 }
+.presentation{
+    text-align: center;
+}
 .productos{
     display: flex;
     flex-wrap: wrap;
