@@ -4,7 +4,7 @@
     --red-color: #CB2424;
     --fondo-color: #EEE7E7;
     /* Altura*/
-    --altura: 326px;
+    --altura: 310px;
     /* Box shadow */
     --box: 0 0 15px black;
     /* Espacio */
@@ -94,6 +94,9 @@ html, body{
     padding: var(--space);
     margin: var(--space);
     margin-bottom: 40px;
+}
+.curiosities_title{
+    font-size: 16px;
 }
 .curiosities_imageContainer{
     width: 100px;

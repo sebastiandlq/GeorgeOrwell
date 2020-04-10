@@ -1,16 +1,18 @@
 @media (max-width: 600px) {
     .brand{
-        font-size: 15px;
+        font-size: 50%;
+        margin: 0;
+        padding: 0;
     }
     .logo{
         display: flex;
         align-items: center;
     }
     .logo img{
-        height: 75%;
+        height: 65%;
     }
     .Menu li a{
-        font-size: 90%;
+        font-size: 80%;
     }
     .libro{
         display: block;
