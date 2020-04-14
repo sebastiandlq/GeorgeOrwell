@@ -21,4 +21,10 @@
     .libro_button{
         width: auto;
     }
+    .biografia{
+        display: block;
+    }
+    .best{
+        display: block;
+    }
 }

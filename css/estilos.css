@@ -163,6 +163,24 @@ p{
      justify-content: center;
      align-items: center;
  }
+ /* 
+ --------------------------------------------->Biografia
+ */
+ .biografia{
+    display: flex;
+ }
+ .biografia img{
+    border: 10px solid black;
+    border-radius: 6px;
+ }
+ .biografia p {
+    font-size: var(--normal);
+ }
+ .best{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
  .venta{
    padding: 15px;
  }
